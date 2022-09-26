@@ -145,26 +145,3 @@ class Quizzes extends Component {
   }
 }
 export default Quizzes;
-
-// HW Sep 30, 2022
-
-// 1. Add an ability to add new quiz
-//    POST https://6324f8454cd1a2834c37ee19.mockapi.io/quizes
-//    {
-//       name: "some name"
-//    }
-// 2. Add an ability to add new questions with answers
-//    POST https://6324f8454cd1a2834c37ee19.mockapi.io/quizes/1/questions
-//    {
-//       questionText: "some name",
-//       quizId: "" ?,
-//    }
-//    try sending answerOptions to create answers instead
-
-//    POST https://6324f8454cd1a2834c37ee19.mockapi.io/quizes/1/questions/1/answers
-//    {
-//       answerText: "",
-//       isCorrect: true or false,
-//    }
-// 3. (Bonus) Add an ability to update and delete quizzes/questions/answers
-// 4. (Bonus) Add an ability to login
